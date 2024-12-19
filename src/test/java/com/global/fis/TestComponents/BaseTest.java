@@ -54,7 +54,7 @@ public class BaseTest {
 			
 
 		} else if (browserName.equalsIgnoreCase("firefox")) {
-			//System.setProperty("webdriver.gecko.driver","/Users/rahulshetty//documents//geckodriver");
+			
 			driver = new FirefoxDriver();
 			// Firefox
 		} else if (browserName.equalsIgnoreCase("edge")) {
